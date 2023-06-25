@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: cursive;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -135,7 +135,7 @@
 @media (max-width: 567px) {
   .container .card {
     width: 80%;
-    height: 75%;
+    max-height: 80%;
     padding: 20px 15px;
   }
   .search-box input {
